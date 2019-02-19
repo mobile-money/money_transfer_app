@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="transferForm"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <h2>
+      Send to
+    </h2>
+    <input
+      className="input__field "
+      name="autoNameInput"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Recipient"
+      type="text"
+      value=""
+    />
+    <h2>
+      Amount
+    </h2>
+    <span
+      className="input__currencySymbol"
+    >
+      <input
+        className="input__field "
+        name="moneyInput"
+        onChange={[Function]}
+        placeholder="5"
+        type="text"
+        value=""
+      />
+    </span>
+    <h2>
+      Note
+    </h2>
+    <input
+      className="input__field"
+      maxLength="26"
+      name="noteInput"
+      placeholder="Add a note"
+    />
+    <br />
+    <button
+      className="button transferForm__button"
+      disabled={true}
+    >
+      Send
+    </button>
+  </form>
+</div>
+`;

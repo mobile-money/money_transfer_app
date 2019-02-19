@@ -1,0 +1,36 @@
+.transactions {
+  margin: $l-size 0 $m-size 0;
+}
+
+.transaction {
+  padding: 0.8em;
+  font-size: $s-size;
+  font-weight: 600;
+  border-bottom: 1px solid $grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction:first-of-type {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.transaction:last-of-type {
+  border-bottom: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.transaction__left__message {
+  font-size: $m-size;
+}
+
+.transaction__right__date {
+  text-align: right;
+  margin-bottom: 0.4em;
+}
+
+.transaction__right__balance {
+  text-align: right;
+}

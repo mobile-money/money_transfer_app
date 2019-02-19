@@ -1,0 +1,48 @@
+.input__field {
+  box-sizing: border-box;
+  height: 4rem;
+  border-style: none;
+  background-color: #fff;
+  border-radius: 6px;
+  width: 100%;
+  padding: 10px;
+  font-size: $m-size;
+  outline: none;
+  font-weight: 600;
+  border: 2px solid $light-blue;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input__currencySymbol:before {
+  color: $off-black;
+  font-weight: 600;
+  font-size: $m-size;
+  position: absolute;
+  top: -4px;
+  content: "€";
+  left: 10px;
+}
+
+.input__currencySymbol {
+  position: relative;
+}
+
+.input__currencySymbol input {
+  padding-left: 28px;
+}
+
+.input-warning {
+  font-size: $s-size;
+  font-weight: 600;
+}
+
+.input-error {
+  font-size: $s-size;
+  color: $soft-red;
+  font-weight: 600;
+}

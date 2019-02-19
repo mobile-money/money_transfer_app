@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="transactions"
+>
+  <h2>
+    History
+  </h2>
+  <div
+    className="transaction"
+  >
+    <div
+      className="transaction__left__left"
+    >
+      <div
+        className="transaction__left__message"
+      >
+        Sent €
+        12.5
+         to 
+        Mark
+      </div>
+      <div
+        className="transaction__left__note"
+      >
+        lunch
+      </div>
+    </div>
+    <div
+      className="transaction__right"
+    >
+      <div
+        className="transaction__right__date"
+      >
+        Feb 7
+      </div>
+      <div
+        className="transaction__right__balance"
+      >
+         
+        Balance: € 
+        325
+      </div>
+    </div>
+  </div>
+  <div
+    className="transaction"
+  >
+    <div
+      className="transaction__left__left"
+    >
+      <div
+        className="transaction__left__message"
+      >
+        Sent €
+        25
+         to 
+        Luka
+      </div>
+      <div
+        className="transaction__left__note"
+      >
+        cab share
+      </div>
+    </div>
+    <div
+      className="transaction__right"
+    >
+      <div
+        className="transaction__right__date"
+      >
+        Jan 20
+      </div>
+      <div
+        className="transaction__right__balance"
+      >
+         
+        Balance: € 
+        337.5
+      </div>
+    </div>
+  </div>
+  <div
+    className="transaction"
+  >
+    <div
+      className="transaction__left__left"
+    >
+      <div
+        className="transaction__left__message"
+      >
+        Sent €
+        10.5
+         to 
+        Josh
+      </div>
+      <div
+        className="transaction__left__note"
+      >
+        cinema
+      </div>
+    </div>
+    <div
+      className="transaction__right"
+    >
+      <div
+        className="transaction__right__date"
+      >
+        Jan 18
+      </div>
+      <div
+        className="transaction__right__balance"
+      >
+         
+        Balance: € 
+        327
+      </div>
+    </div>
+  </div>
+</div>
+`;

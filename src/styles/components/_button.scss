@@ -1,0 +1,64 @@
+.button {
+  border: none;
+  background-color: $off-white;
+  background-color: $light-blue;
+  color: $off-white;
+  font-size: $m-size;
+  padding: $s-size;
+  // border: 2px solid $off-white;
+  border-radius: 6px;
+  margin-top: $s-size;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #f7f7f7;
+  color: $grey;
+  border: 2px solid $grey;
+  cursor: default;
+}
+
+.positive {
+  background-color: $light-blue;
+  color: $off-white;
+  border-color: $light-blue;
+  font-weight: 600;
+  margin-left: $s-size;
+}
+
+.negative {
+  background-color: $soft-red;
+  border-color: $soft-red;
+  color: $off-white;
+  font-weight: 600;
+  margin-right: $s-size;
+}
+
+.transferForm__button {
+  width: 100%;
+  color: $off-white;
+  background-color: $light-blue;
+  font-weight: 600;
+}
+
+.inverted-button {
+  border: none;
+  background-color: inherit;
+  color: $light-blue;
+  font-size: $l-size;
+  padding: 0;
+  margin: 0;
+  font-weight: 800;
+  cursor: pointer;
+  outline: none;
+  
+    svg {
+      width: 40px;
+    }
+}
+
+.button > a {
+  color: inherit;
+  text-decoration: inherit;
+}

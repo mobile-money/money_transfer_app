@@ -1,0 +1,94 @@
+html {
+  font-size: 62.5%;
+  color: $off-black;
+  width: 100%;
+  font-family: $main-font;
+  background-color: $off-white;
+}
+
+html {
+  height: 100%;
+  overflow: auto;
+}
+body {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.no-suggestions {
+  color: $grey;
+  padding: 0.5rem;
+}
+
+.container {
+  max-width: 40rem;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 $m-size;
+  box-sizing: border-box;
+}
+
+.error {
+  border: 2px solid $soft-red !important;
+}
+
+.mainTitle {
+  text-align: center;
+  font-size: $l-size;
+  margin: $ml-size 0 $s-size 0;
+}
+
+.balance {
+  text-align: center;
+  margin: $l-size 0 0 0;
+}
+
+.balance__number {
+  margin: 0 0 0 $s-size;
+  font-size: $l-size;
+}
+
+h2 {
+  margin: $m-size 0 8px 0;
+}
+
+.description {
+  text-align: center;
+}
+
+.TransferPage__FirstScreen {
+  height: 100vh;
+}
+
+.TransferPage__FirstScreen__ButtonsBlock {
+  height: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.TransferPage__FirstScreen__ButtonsBlock__Buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .button {
+    margin: $m-size $l-size 0 $l-size;
+  }
+}
+
+.TransferPage__SecondScreen {
+  padding-top: 0.1em;
+  height: 100vh;
+}
+
+.TransferPage__SecondScreen__Header {
+  margin-top: 1em;
+  .balance {
+    display: inline;
+    float: right;
+    margin-top: 0 !important;
+  }
+}
