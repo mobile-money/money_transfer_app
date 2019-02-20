@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <h2>
+    Request from
+  </h2>
+  <div>
+    <div
+      aria-expanded={false}
+      aria-haspopup="listbox"
+      aria-owns="react-autowhatever-1"
+      className="react-autosuggest__container"
+      role="combobox"
+    >
+      <input
+        aria-activedescendant={null}
+        aria-autocomplete="list"
+        aria-controls="react-autowhatever-1"
+        autoComplete="off"
+        className="react-autosuggest__input"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Recipient"
+        type="text"
+        value=""
+      />
+      <div
+        className="react-autosuggest__suggestions-container"
+        id="react-autowhatever-1"
+        role="listbox"
+      />
+    </div>
+  </div>
+  <h2>
+    Amount
+  </h2>
+  <span
+    className="input__currencySymbol"
+  >
+    <input
+      className="input__field "
+      name="moneyInput"
+      onChange={[Function]}
+      placeholder="5"
+      type="text"
+      value=""
+    />
+  </span>
+  <h2>
+    Note
+  </h2>
+  <input
+    className="input__field"
+    maxLength="26"
+    name="noteInput"
+    placeholder="Add a note"
+  />
+  <br />
+  <button
+    className="button transferForm__button"
+    disabled={true}
+  >
+    Request
+  </button>
+</form>
+`;
