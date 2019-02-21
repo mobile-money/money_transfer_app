@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Transaction = props => {
   Transaction.propTypes = {
-    transaction: PropTypes.object
+    transaction: PropTypes.object.isRequired
   };
 
   const {

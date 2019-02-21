@@ -16,9 +16,12 @@ exports[`renders correctly 1`] = `
       <div
         className="transaction__left__message"
       >
-        Sent €
-        12.5
-         to 
+        Sent
+         €
+        10
+         
+        to
+         
         Mark
       </div>
       <div
@@ -40,7 +43,7 @@ exports[`renders correctly 1`] = `
       >
          
         Balance: € 
-        325
+        292
       </div>
     </div>
   </div>
@@ -53,10 +56,49 @@ exports[`renders correctly 1`] = `
       <div
         className="transaction__left__message"
       >
-        Sent €
+        Received
+         €
+        12
+         
+        from
+         
+        Lucy
+      </div>
+      
+    </div>
+    <div
+      className="transaction__right"
+    >
+      <div
+        className="transaction__right__date"
+      >
+        Feb 2
+      </div>
+      <div
+        className="transaction__right__balance"
+      >
+         
+        Balance: € 
+        302
+      </div>
+    </div>
+  </div>
+  <div
+    className="transaction"
+  >
+    <div
+      className="transaction__left__left"
+    >
+      <div
+        className="transaction__left__message"
+      >
+        Sent
+         €
         25
-         to 
-        Luka
+         
+        to
+         
+        Luke
       </div>
       <div
         className="transaction__left__note"
@@ -77,7 +119,7 @@ exports[`renders correctly 1`] = `
       >
          
         Balance: € 
-        337.5
+        302
       </div>
     </div>
   </div>
@@ -90,9 +132,12 @@ exports[`renders correctly 1`] = `
       <div
         className="transaction__left__message"
       >
-        Sent €
-        10.5
-         to 
+        Received
+         €
+        10
+         
+        from
+         
         Josh
       </div>
       <div

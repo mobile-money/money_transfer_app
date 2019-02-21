@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { names } from "../data/Names";
+import { names } from "../data/names";
 import Autosuggest from "react-autosuggest";
 
 const nameObjects = names.map(name => ({ name }));

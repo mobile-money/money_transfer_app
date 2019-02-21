@@ -11,7 +11,6 @@ Basic tests can be run by entering `npm test`.
 
 ##### To do:
 * Implement more robust tests.
-* Make it look more native on wide screens.
 
 ##### External components used:
 * react-modal

@@ -4,7 +4,7 @@ import Transaction from "./Transaction";
 
 const TransactionList = props => {
   TransactionList.propTypes = {
-    transactions: PropTypes.instanceOf(Array)
+    transactions: PropTypes.instanceOf(Array).isRequired
   };
   return (
     <div className="transactions">

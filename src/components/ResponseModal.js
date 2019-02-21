@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 const ResponseModal = props => {
   ResponseModal.propTypes = {
-    transaction: PropTypes.object
+    transaction: PropTypes.object.isRequired
   };
   return (
     <Modal

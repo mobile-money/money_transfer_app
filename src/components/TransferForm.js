@@ -1,9 +1,15 @@
 import React from "react";
+import PropTypes from "prop-types";
 import AutoComplete from "./AutoComplete";
 
 export default class TransferForm extends React.Component {
+  static propTypes = {
+    isModeSend: PropTypes.bool,
+    balance: PropTypes.number.isRequired,
+    handleSubmitForm: PropTypes.func
+  };
+
   state = {
-    // isModeSend: true,
     selectedName: undefined,
     amount: "",
     note: "",
