@@ -1,5 +1,5 @@
 # Money transfer app
-This app allows to make fake transfers and requests to people in a fake contact list.
+This app allows to make fake transfers and requests to people in a fake contact list. As this is a mobile app mock, the UI is optimized for mobile.
 This project is meant to show my ability to develop React apps.
 
 A live version can be found [here](http://rbortnikas.surge.sh/).
