@@ -11,8 +11,7 @@
     "react-icons": "^3.4.0",
     "react-modal": "^3.8.1",
     "react-scripts": "2.1.5",
-    "react-test-renderer": "^16.8.2",
-    "redux": "^4.0.1"
+    "react-test-renderer": "^16.8.2"
   },
   "scripts": {
     "start": "react-scripts start",
