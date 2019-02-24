@@ -115,12 +115,12 @@ class TransferPage extends React.Component {
     this.setState(() => ({ isResponseModalOpen: false }));
   };
 
-  toggleSendMode = () => {
+  switchToSendMode = () => {
     this.setState(() => ({ isModeSend: true }));
     this.scroll(this.secondPage);
   };
 
-  toggleRequestMode = () => {
+  switchToRequestMode = () => {
     this.setState(() => ({ isModeSend: false }));
     this.scroll(this.secondPage);
   };
@@ -147,10 +147,10 @@ class TransferPage extends React.Component {
           <Header balance={balance} />
           <div className="TransferPage__FirstScreen__ButtonsBlock">
             <div className="TransferPage__FirstScreen__ButtonsBlock__Buttons">
-              <button className="button" onClick={this.toggleSendMode}>
+              <button className="button" onClick={this.switchToSendMode}>
                 Send money
               </button>
-              <button className="button" onClick={this.toggleRequestMode}>
+              <button className="button" onClick={this.switchToRequestMode}>
                 Request money
               </button>
             </div>
