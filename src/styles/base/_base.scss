@@ -39,12 +39,13 @@ body {
 .mainTitle {
   text-align: center;
   font-size: $l-size;
-  margin: $ml-size 0 $s-size 0;
+  margin: 0 0 $s-size 0;
+  padding-top: 4rem;
 }
 
 .balance {
   text-align: center;
-  margin: $l-size 0 0 0;
+  margin: 40% 0 40% 0;
 }
 
 .balance__number {
@@ -62,12 +63,6 @@ h2 {
 
 .TransferPage__FirstScreen {
   height: 100vh;
-}
-
-.TransferPage__FirstScreen__ButtonsBlock {
-  height: 70%;
-  display: flex;
-  align-items: center;
 }
 
 .TransferPage__FirstScreen__ButtonsBlock__Buttons {
@@ -89,6 +84,28 @@ h2 {
   .balance {
     display: inline;
     float: right;
-    margin-top: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+#message-id {
+  font-size: $m-size;
+}
+
+@media (min-width: 45rem) {
+  .mainTitle {
+    padding-top: 40%;
+  }
+
+  .TransferPage__FirstScreen__ButtonsBlock {
+    height: initial;
+  }
+
+  .balance {
+    margin: 5rem 0 5rem 0;
+  }
+
+  .TransferPage__SecondScreen {
+    padding-top: 6rem;
   }
 }

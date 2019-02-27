@@ -6,6 +6,7 @@ import ConfirmationModal from "./ConfirmationModal";
 import ResponseModal from "./ResponseModal";
 import TransactionList from "./TransactionList";
 import Header from "./Header";
+import PositionedSnackbar from "./PositionedSnackbar";
 
 class TransferPage extends React.Component {
   state = {
@@ -189,6 +190,7 @@ class TransferPage extends React.Component {
           />
           <TransactionList transactions={transactions} />
         </div>
+        <PositionedSnackbar />
       </Fragment>
     );
   }
